@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		442BAE6D1C33E55600AA42D5 /* TIMERUIApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 442BAE6C1C33E55600AA42D5 /* TIMERUIApplication.m */; };
+		442F3AC51C639ECE00300D16 /* EBSLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 442F3AC41C639ECE00300D16 /* EBSLib.a */; };
+		442F3AC71C639EFB00300D16 /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 442F3AC61C639EFB00300D16 /* Config.plist */; };
+		5B08BC1A1BCE349A00657E34 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B08BC191BCE349A00657E34 /* Default-568h@2x.png */; };
+		5B522F2A1BC56478007D68C2 /* sachin_book1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B522F291BC56478007D68C2 /* sachin_book1.png */; };
+		5B7D88C11BC5274900717037 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7D88C01BC5274900717037 /* main.m */; };
+		5B7D88C41BC5274900717037 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7D88C31BC5274900717037 /* AppDelegate.m */; };
+		5B7D88C71BC5274900717037 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7D88C61BC5274900717037 /* ViewController.m */; };
+		5B7D88CC1BC5274900717037 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B7D88CB1BC5274900717037 /* Images.xcassets */; };
+		5B7D89081BC5278000717037 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B7D88E41BC5278000717037 /* arrow.png */; };
+		5B7D890B1BC5278000717037 /* check.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B7D88EA1BC5278000717037 /* check.png */; };
+		5B7D890C1BC5278000717037 /* check@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B7D88EB1BC5278000717037 /* check@2x.png */; };
+		5B7D890D1BC5278000717037 /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B7D88EC1BC5278000717037 /* close.png */; };
+		5B7D890E1BC5278000717037 /* close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B7D88ED1BC5278000717037 /* close@2x.png */; };
+		5B7D89121BC5278000717037 /* cvv_no.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B7D88F41BC5278000717037 /* cvv_no.jpg */; };
+		5B7D89141BC5278000717037 /* inputBgDrop.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B7D88F81BC5278000717037 /* inputBgDrop.png */; };
+		5B7D89171BC5278000717037 /* RadioOff.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B7D88FD1BC5278000717037 /* RadioOff.png */; };
+		5B7D89181BC5278000717037 /* RadioOn.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B7D88FE1BC5278000717037 /* RadioOn.png */; };
+		5B7D891B1BC5278000717037 /* uncheck.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B7D89041BC5278000717037 /* uncheck.png */; };
+		5B7D891C1BC5278000717037 /* uncheck@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B7D89051BC5278000717037 /* uncheck@2x.png */; };
+		E61469621BD7F5A900E076F2 /* CashAndNetBankingCell_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = E61469481BD7F5A900E076F2 /* CashAndNetBankingCell_iPad.xib */; };
+		E61469631BD7F5A900E076F2 /* CashAndNetBankingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E614694A1BD7F5A900E076F2 /* CashAndNetBankingCell.xib */; };
+		E61469641BD7F5A900E076F2 /* CreditAndDebitCardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E614694C1BD7F5A900E076F2 /* CreditAndDebitCardCell.xib */; };
+		E61469651BD7F5A900E076F2 /* CreditCardCell_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = E614694E1BD7F5A900E076F2 /* CreditCardCell_iPad.xib */; };
+		E61469661BD7F5A900E076F2 /* CreditCardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E61469501BD7F5A900E076F2 /* CreditCardCell.xib */; };
+		E61469671BD7F5A900E076F2 /* DebitCardCell_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = E61469521BD7F5A900E076F2 /* DebitCardCell_iPad.xib */; };
+		E61469681BD7F5A900E076F2 /* PaymentModeViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = E61469541BD7F5A900E076F2 /* PaymentModeViewController_iPad.xib */; };
+		E61469691BD7F5A900E076F2 /* PaymentModeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E61469561BD7F5A900E076F2 /* PaymentModeViewController.xib */; };
+		E614696A1BD7F5A900E076F2 /* StoredCardCell_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = E61469591BD7F5A900E076F2 /* StoredCardCell_iPad.xib */; };
+		E614696B1BD7F5A900E076F2 /* StoredCardCell_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = E614695B1BD7F5A900E076F2 /* StoredCardCell_iPhone.xib */; };
+		E614696C1BD7F5A900E076F2 /* SuccessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E614695D1BD7F5A900E076F2 /* SuccessViewController.m */; };
+		E614696E1BD7F5A900E076F2 /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E61469611BD7F5A900E076F2 /* WebViewController.xib */; };
+		E61AB2E61BD7FC1D00E7ADDD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E61AB2E41BD7FC1D00E7ADDD /* LaunchScreen.xib */; };
+		E61AB2E71BD7FC1D00E7ADDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E61AB2E51BD7FC1D00E7ADDD /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		442BAE6C1C33E55600AA42D5 /* TIMERUIApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIMERUIApplication.m; sourceTree = "<group>"; };
+		442F3AC41C639ECE00300D16 /* EBSLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = EBSLib.a; sourceTree = "<group>"; };
+		442F3AC61C639EFB00300D16 /* Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
+		5B08BC191BCE349A00657E34 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5B522F291BC56478007D68C2 /* sachin_book1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sachin_book1.png; sourceTree = "<group>"; };
+		5B7D88BB1BC5274900717037 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B7D88BF1BC5274900717037 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B7D88C01BC5274900717037 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5B7D88C21BC5274900717037 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5B7D88C31BC5274900717037 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5B7D88C51BC5274900717037 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5B7D88C61BC5274900717037 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5B7D88CB1BC5274900717037 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5B7D88E41BC5278000717037 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+		5B7D88EA1BC5278000717037 /* check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check.png; sourceTree = "<group>"; };
+		5B7D88EB1BC5278000717037 /* check@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "check@2x.png"; sourceTree = "<group>"; };
+		5B7D88EC1BC5278000717037 /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
+		5B7D88ED1BC5278000717037 /* close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close@2x.png"; sourceTree = "<group>"; };
+		5B7D88F41BC5278000717037 /* cvv_no.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cvv_no.jpg; sourceTree = "<group>"; };
+		5B7D88F81BC5278000717037 /* inputBgDrop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = inputBgDrop.png; sourceTree = "<group>"; };
+		5B7D88FD1BC5278000717037 /* RadioOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RadioOff.png; sourceTree = "<group>"; };
+		5B7D88FE1BC5278000717037 /* RadioOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RadioOn.png; sourceTree = "<group>"; };
+		5B7D89041BC5278000717037 /* uncheck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uncheck.png; sourceTree = "<group>"; };
+		5B7D89051BC5278000717037 /* uncheck@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "uncheck@2x.png"; sourceTree = "<group>"; };
+		E61469461BD7F5A900E076F2 /* AsyncImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncImageView.h; sourceTree = "<group>"; };
+		E61469471BD7F5A900E076F2 /* CashAndNetBankingCell_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CashAndNetBankingCell_iPad.h; sourceTree = "<group>"; };
+		E61469481BD7F5A900E076F2 /* CashAndNetBankingCell_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CashAndNetBankingCell_iPad.xib; sourceTree = "<group>"; };
+		E61469491BD7F5A900E076F2 /* CashAndNetBankingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CashAndNetBankingCell.h; sourceTree = "<group>"; };
+		E614694A1BD7F5A900E076F2 /* CashAndNetBankingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CashAndNetBankingCell.xib; sourceTree = "<group>"; };
+		E614694B1BD7F5A900E076F2 /* CreditAndDebitCardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreditAndDebitCardCell.h; sourceTree = "<group>"; };
+		E614694C1BD7F5A900E076F2 /* CreditAndDebitCardCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreditAndDebitCardCell.xib; sourceTree = "<group>"; };
+		E614694D1BD7F5A900E076F2 /* CreditCardCell_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreditCardCell_iPad.h; sourceTree = "<group>"; };
+		E614694E1BD7F5A900E076F2 /* CreditCardCell_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreditCardCell_iPad.xib; sourceTree = "<group>"; };
+		E614694F1BD7F5A900E076F2 /* CreditCardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreditCardCell.h; sourceTree = "<group>"; };
+		E61469501BD7F5A900E076F2 /* CreditCardCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreditCardCell.xib; sourceTree = "<group>"; };
+		E61469511BD7F5A900E076F2 /* DebitCardCell_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebitCardCell_iPad.h; sourceTree = "<group>"; };
+		E61469521BD7F5A900E076F2 /* DebitCardCell_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DebitCardCell_iPad.xib; sourceTree = "<group>"; };
+		E61469531BD7F5A900E076F2 /* MRMSiOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRMSiOS.h; sourceTree = "<group>"; };
+		E61469541BD7F5A900E076F2 /* PaymentModeViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaymentModeViewController_iPad.xib; sourceTree = "<group>"; };
+		E61469551BD7F5A900E076F2 /* PaymentModeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentModeViewController.h; sourceTree = "<group>"; };
+		E61469561BD7F5A900E076F2 /* PaymentModeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaymentModeViewController.xib; sourceTree = "<group>"; };
+		E61469571BD7F5A900E076F2 /* ResponseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseViewController.h; sourceTree = "<group>"; };
+		E61469581BD7F5A900E076F2 /* StoredCardCell_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoredCardCell_iPad.h; sourceTree = "<group>"; };
+		E61469591BD7F5A900E076F2 /* StoredCardCell_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StoredCardCell_iPad.xib; sourceTree = "<group>"; };
+		E614695A1BD7F5A900E076F2 /* StoredCardCell_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoredCardCell_iPhone.h; sourceTree = "<group>"; };
+		E614695B1BD7F5A900E076F2 /* StoredCardCell_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StoredCardCell_iPhone.xib; sourceTree = "<group>"; };
+		E614695C1BD7F5A900E076F2 /* SuccessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuccessViewController.h; sourceTree = "<group>"; };
+		E614695D1BD7F5A900E076F2 /* SuccessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuccessViewController.m; sourceTree = "<group>"; };
+		E614695E1BD7F5A900E076F2 /* TIMERUIApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIMERUIApplication.h; sourceTree = "<group>"; };
+		E61469601BD7F5A900E076F2 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		E61469611BD7F5A900E076F2 /* WebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
+		E61AB2E41BD7FC1D00E7ADDD /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		E61AB2E51BD7FC1D00E7ADDD /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B7D88B81BC5274900717037 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				442F3AC51C639ECE00300D16 /* EBSLib.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B6EAC5F1BC550FB00E3EF2F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				5B7D88E41BC5278000717037 /* arrow.png */,
+				5B7D88EA1BC5278000717037 /* check.png */,
+				5B7D88EB1BC5278000717037 /* check@2x.png */,
+				5B7D88EC1BC5278000717037 /* close.png */,
+				5B7D88ED1BC5278000717037 /* close@2x.png */,
+				5B7D88F41BC5278000717037 /* cvv_no.jpg */,
+				5B7D88F81BC5278000717037 /* inputBgDrop.png */,
+				5B522F291BC56478007D68C2 /* sachin_book1.png */,
+				5B7D88FD1BC5278000717037 /* RadioOff.png */,
+				5B7D88FE1BC5278000717037 /* RadioOn.png */,
+				5B7D89041BC5278000717037 /* uncheck.png */,
+				5B7D89051BC5278000717037 /* uncheck@2x.png */,
+			);
+			name = Images;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		5B6EAC601BC5512E00E3EF2F /* ReqFiles */ = {
+			isa = PBXGroup;
+			children = (
+				E61469461BD7F5A900E076F2 /* AsyncImageView.h */,
+				E61469471BD7F5A900E076F2 /* CashAndNetBankingCell_iPad.h */,
+				E61469481BD7F5A900E076F2 /* CashAndNetBankingCell_iPad.xib */,
+				E61469491BD7F5A900E076F2 /* CashAndNetBankingCell.h */,
+				E614694A1BD7F5A900E076F2 /* CashAndNetBankingCell.xib */,
+				E614694B1BD7F5A900E076F2 /* CreditAndDebitCardCell.h */,
+				E614694C1BD7F5A900E076F2 /* CreditAndDebitCardCell.xib */,
+				E614694D1BD7F5A900E076F2 /* CreditCardCell_iPad.h */,
+				E614694E1BD7F5A900E076F2 /* CreditCardCell_iPad.xib */,
+				E614694F1BD7F5A900E076F2 /* CreditCardCell.h */,
+				E61469501BD7F5A900E076F2 /* CreditCardCell.xib */,
+				E61469511BD7F5A900E076F2 /* DebitCardCell_iPad.h */,
+				E61469521BD7F5A900E076F2 /* DebitCardCell_iPad.xib */,
+				E61469531BD7F5A900E076F2 /* MRMSiOS.h */,
+				E61469541BD7F5A900E076F2 /* PaymentModeViewController_iPad.xib */,
+				E61469551BD7F5A900E076F2 /* PaymentModeViewController.h */,
+				E61469561BD7F5A900E076F2 /* PaymentModeViewController.xib */,
+				E61469571BD7F5A900E076F2 /* ResponseViewController.h */,
+				E61469581BD7F5A900E076F2 /* StoredCardCell_iPad.h */,
+				E61469591BD7F5A900E076F2 /* StoredCardCell_iPad.xib */,
+				E614695A1BD7F5A900E076F2 /* StoredCardCell_iPhone.h */,
+				E614695B1BD7F5A900E076F2 /* StoredCardCell_iPhone.xib */,
+				E614695C1BD7F5A900E076F2 /* SuccessViewController.h */,
+				E614695D1BD7F5A900E076F2 /* SuccessViewController.m */,
+				E614695E1BD7F5A900E076F2 /* TIMERUIApplication.h */,
+				442BAE6C1C33E55600AA42D5 /* TIMERUIApplication.m */,
+				E61469601BD7F5A900E076F2 /* WebViewController.h */,
+				E61469611BD7F5A900E076F2 /* WebViewController.xib */,
+			);
+			name = ReqFiles;
+			sourceTree = "<group>";
+		};
+		5B7D88B21BC5274900717037 = {
+			isa = PBXGroup;
+			children = (
+				5B08BC191BCE349A00657E34 /* Default-568h@2x.png */,
+				5B7D88BD1BC5274900717037 /* Testkit */,
+				5B7D88BC1BC5274900717037 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B7D88BC1BC5274900717037 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B7D88BB1BC5274900717037 /* Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B7D88BD1BC5274900717037 /* Testkit */ = {
+			isa = PBXGroup;
+			children = (
+				E60F493D1BECB601005A8EC9 /* EBS */,
+				5B7D88C21BC5274900717037 /* AppDelegate.h */,
+				5B7D88C31BC5274900717037 /* AppDelegate.m */,
+				5B7D88C51BC5274900717037 /* ViewController.h */,
+				5B7D88C61BC5274900717037 /* ViewController.m */,
+				E61AB2E41BD7FC1D00E7ADDD /* LaunchScreen.xib */,
+				E61AB2E51BD7FC1D00E7ADDD /* Main.storyboard */,
+				5B7D88CB1BC5274900717037 /* Images.xcassets */,
+				5B7D88BE1BC5274900717037 /* Supporting Files */,
+			);
+			path = Testkit;
+			sourceTree = "<group>";
+		};
+		5B7D88BE1BC5274900717037 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B7D88BF1BC5274900717037 /* Info.plist */,
+				5B7D88C01BC5274900717037 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E60F493D1BECB601005A8EC9 /* EBS */ = {
+			isa = PBXGroup;
+			children = (
+				442F3AC41C639ECE00300D16 /* EBSLib.a */,
+				442F3AC61C639EFB00300D16 /* Config.plist */,
+				5B6EAC601BC5512E00E3EF2F /* ReqFiles */,
+				5B6EAC5F1BC550FB00E3EF2F /* Images */,
+			);
+			name = EBS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B7D88BA1BC5274900717037 /* Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B7D88DE1BC5274900717037 /* Build configuration list for PBXNativeTarget "Demo" */;
+			buildPhases = (
+				5B7D88B71BC5274900717037 /* Sources */,
+				5B7D88B81BC5274900717037 /* Frameworks */,
+				5B7D88B91BC5274900717037 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Demo;
+			productName = Testkit;
+			productReference = 5B7D88BB1BC5274900717037 /* Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B7D88B31BC5274900717037 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = test;
+				TargetAttributes = {
+					5B7D88BA1BC5274900717037 = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = N3D86E375Z;
+					};
+				};
+			};
+			buildConfigurationList = 5B7D88B61BC5274900717037 /* Build configuration list for PBXProject "Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B7D88B21BC5274900717037;
+			productRefGroup = 5B7D88BC1BC5274900717037 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B7D88BA1BC5274900717037 /* Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B7D88B91BC5274900717037 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B7D89141BC5278000717037 /* inputBgDrop.png in Resources */,
+				E61469631BD7F5A900E076F2 /* CashAndNetBankingCell.xib in Resources */,
+				E614696E1BD7F5A900E076F2 /* WebViewController.xib in Resources */,
+				5B7D89181BC5278000717037 /* RadioOn.png in Resources */,
+				5B7D891C1BC5278000717037 /* uncheck@2x.png in Resources */,
+				5B7D890D1BC5278000717037 /* close.png in Resources */,
+				E61AB2E71BD7FC1D00E7ADDD /* Main.storyboard in Resources */,
+				5B08BC1A1BCE349A00657E34 /* Default-568h@2x.png in Resources */,
+				5B7D890B1BC5278000717037 /* check.png in Resources */,
+				E61469691BD7F5A900E076F2 /* PaymentModeViewController.xib in Resources */,
+				5B7D890E1BC5278000717037 /* close@2x.png in Resources */,
+				5B7D89171BC5278000717037 /* RadioOff.png in Resources */,
+				5B7D88CC1BC5274900717037 /* Images.xcassets in Resources */,
+				E614696A1BD7F5A900E076F2 /* StoredCardCell_iPad.xib in Resources */,
+				E61469671BD7F5A900E076F2 /* DebitCardCell_iPad.xib in Resources */,
+				5B7D89081BC5278000717037 /* arrow.png in Resources */,
+				E61AB2E61BD7FC1D00E7ADDD /* LaunchScreen.xib in Resources */,
+				E61469621BD7F5A900E076F2 /* CashAndNetBankingCell_iPad.xib in Resources */,
+				5B7D89121BC5278000717037 /* cvv_no.jpg in Resources */,
+				5B522F2A1BC56478007D68C2 /* sachin_book1.png in Resources */,
+				442F3AC71C639EFB00300D16 /* Config.plist in Resources */,
+				E61469681BD7F5A900E076F2 /* PaymentModeViewController_iPad.xib in Resources */,
+				E61469651BD7F5A900E076F2 /* CreditCardCell_iPad.xib in Resources */,
+				5B7D891B1BC5278000717037 /* uncheck.png in Resources */,
+				5B7D890C1BC5278000717037 /* check@2x.png in Resources */,
+				E614696B1BD7F5A900E076F2 /* StoredCardCell_iPhone.xib in Resources */,
+				E61469661BD7F5A900E076F2 /* CreditCardCell.xib in Resources */,
+				E61469641BD7F5A900E076F2 /* CreditAndDebitCardCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B7D88B71BC5274900717037 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B7D88C71BC5274900717037 /* ViewController.m in Sources */,
+				442BAE6D1C33E55600AA42D5 /* TIMERUIApplication.m in Sources */,
+				5B7D88C41BC5274900717037 /* AppDelegate.m in Sources */,
+				E614696C1BD7F5A900E076F2 /* SuccessViewController.m in Sources */,
+				5B7D88C11BC5274900717037 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5B7D88DC1BC5274900717037 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5B7D88DD1BC5274900717037 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B7D88DF1BC5274900717037 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jam Nelavai (3BLU34ZEG2)";
+				ENABLE_BITCODE = YES;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = Testkit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Testkit",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+					"-w",
+				);
+				PRODUCT_NAME = Demo;
+				PROVISIONING_PROFILE = "f13bf392-94c4-4bdb-b8b0-e25f81634c6b";
+			};
+			name = Debug;
+		};
+		5B7D88E01BC5274900717037 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jam Nelavai (3BLU34ZEG2)";
+				ENABLE_BITCODE = YES;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = Testkit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Testkit",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+					"-w",
+				);
+				PRODUCT_NAME = Demo;
+				PROVISIONING_PROFILE = "f13bf392-94c4-4bdb-b8b0-e25f81634c6b";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B7D88B61BC5274900717037 /* Build configuration list for PBXProject "Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B7D88DC1BC5274900717037 /* Debug */,
+				5B7D88DD1BC5274900717037 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B7D88DE1BC5274900717037 /* Build configuration list for PBXNativeTarget "Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B7D88DF1BC5274900717037 /* Debug */,
+				5B7D88E01BC5274900717037 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B7D88B31BC5274900717037 /* Project object */;
+}
